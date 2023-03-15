@@ -8,7 +8,7 @@ This is a JavaScript code for a word typing game. The game displays a random wor
 
 The code starts by selecting the necessary elements from the HTML document using their IDs. It then creates an array of words to be used in the game and initializes variables for the random word, score, and time. The difficulty level is set using the `localStorage` API to save the user's preference for the next time they play the game.
 
-The game then focuses on the input field for the user to start typing and starts the timer using the setInterval method. The `getRandomWord` function generates a random word from the array, and the `addWordToDOM` function displays the word on the screen. The `updateScore` function increments the score when the user types a correct word. The updateTime function decreases the time by 1 second and updates the time element on the screen.
+The game then focuses on the input field for the user to start typing and starts the timer using the `setInterval` method. The `getRandomWord` function generates a random word from the array, and the `addWordToDOM` function displays the word on the screen. The `updateScore` function increments the score when the user types a correct word. The `updateTime` function decreases the time by 1 second and updates the time element on the screen.
 
 The `gameOver` function is called when the time runs out, displaying the user's final score and a button to restart the game.
 
